@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.alkatra-bold {
+  font-family: "Alkatra", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.alkatra-medium {
+  font-family: "Alkatra", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.alkatra-regular {
+  font-family: "Alkatra", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

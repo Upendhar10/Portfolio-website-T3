@@ -1,10 +1,13 @@
-// import { MdWbSunny } from "react-icons/md";
-// import { IoMoon } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
-import { SiPeerlist } from "react-icons/si";
+// import { SiPeerlist } from "react-icons/si";
+import ThemeToggle from "./ThemeToggle.jsx";
+
 function Header() {
+  
   return (
-    <div className="flex justify-between items-center sticky top-0 py-4 px-2 bg-black">
+    <div className="flex justify-between items-center sticky top-0 py-4"
+    style={{ background: "var(--bg-color)", transition: "all 0.5s ease"}}
+    >
       <div>
         <svg
           id="logo-72"
@@ -26,10 +29,10 @@ function Header() {
         <a href="https://www.linkedin.com/in/upendharnemmani/" target="_blank">
           <FaLinkedin className="hover:text-blue-600 cursor-pointer" />
         </a>
-        <a href="https://peerlist.io/upendhar10" target="_blank">
+        {/* <a href="https://peerlist.io/upendhar10" target="_blank">
           <SiPeerlist className="hover:text-green-600 cursor-pointer" />
-        </a>
-        {/* <IoMoon /> */}
+        </a> */}
+        <ThemeToggle/>
       </div>
     </div>
   );

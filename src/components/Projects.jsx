@@ -36,7 +36,7 @@ const Card = ({ title, description, skills, links }) => {
 
 function Projects() {
   return (
-    <div className="py-6 md:max-w-[95%] md:m-auto">
+    <div className="py-6 md:max-w-[100%] md:m-auto">
       <h1 className="text-3xl alkatra-bold mb-2 text-blue-500 text-center">
         Projects.
       </h1>
@@ -52,7 +52,7 @@ function Projects() {
               name: "codebase",
               url: "https://github.com/Upendhar10/Wistora-webapp",
             },
-            { name: "live", url: "https://wistora-webapp.vercel.app/" },
+            { name: "preview", url: "https://wistora-webapp.vercel.app/" },
           ]}
         />
         <Card
@@ -66,7 +66,7 @@ function Projects() {
               name: "codebase",
               url: "https://github.com/Upendhar10/FoodVille-WebApp",
             },
-            { name: "live", url: "https://foodville-web-app.netlify.app/" },
+            { name: "preview", url: "https://foodville-web-app.netlify.app/" },
           ]}
         />
         <Card
@@ -80,7 +80,7 @@ function Projects() {
               name: "codebase",
               url: "https://github.com/Upendhar10/Canvaskraft-webApp",
             },
-            { name: "live", url: "https://canvaskraft-web-app.vercel.app/" },
+            { name: "preview", url: "https://canvaskraft-web-app.vercel.app/" },
           ]}
         />
         <Card
@@ -94,7 +94,7 @@ function Projects() {
               name: "codebase",
               url: "https://github.com/Upendhar10/AudioWave-Analyser",
             },
-            { name: "live", url: "https://audio-wave-analyser.vercel.app/" },
+            { name: "preview", url: "https://audio-wave-analyser.vercel.app/" },
           ]}
         />
       </div>

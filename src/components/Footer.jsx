@@ -3,7 +3,7 @@ function Copyright() {
     <div className="text-center text-base leading-loose ">
       <hr className="border-1 mb-3 " />
       <p className="mx-auto max-w-[300px] md:max-w-full">
-        Built with ♥️ and plenty of caffeine! ☕
+        Built with 💙 and plenty of caffeine! ☕
       </p>
       <p> &copy; Nemmani Upendhar | All rights & wrongs reserved.</p>
     </div>

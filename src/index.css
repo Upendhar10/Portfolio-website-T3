@@ -4,9 +4,22 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --bg-color: #111111;
+  --text-color: #ffffff;
+}
+
+/* Apply global */
 body {
-  background-color: #000;
-  color: #fff;
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.5s ease;
 }
 
 .alkatra-bold {
@@ -26,6 +39,6 @@ body {
 .alkatra-regular {
   font-family: "Alkatra", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
 }

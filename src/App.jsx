@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="max-w-[80%] md:max-w-[70%] m-auto  h-full">
+    <div className="max-w-[80%] md:max-w-[75%] m-auto  h-full">
       <Header />
       <Hero />
       <About />

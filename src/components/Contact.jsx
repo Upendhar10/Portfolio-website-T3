@@ -29,10 +29,10 @@ function Contact() {
           SocialName={"LinkedIn"}
           Sociallink={"https://www.linkedin.com/in/upendharnemmani/"}
         />
-        <Socials
+        {/* <Socials
           SocialName={"Peerlist"}
           Sociallink={"https://peerlist.io/upendhar10"}
-        />
+        /> */}
         <Socials
           SocialName={"Gmail"}
           Sociallink={"mailto:upendharnemmani@gmail.com"}

@@ -4,7 +4,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import assets from "../assets/assets";
 function Hero() {
   return (
-    <div className="py-3 md:max-w-[95%] md:m-auto">
+    <div className="py-3 md:max-w-[100%] md:m-auto">
       <div className="flex items-center justify-around md:justify-evenly gap-5">
         <div className="heroImg">
           <img
@@ -23,7 +23,7 @@ function Hero() {
           </h2>
           <a
             href="https://drive.google.com/file/d/1-hMMvz_rjQV1u-NJEjz1rHH4J_vFh8eV/view?usp=sharing"
-            className="alkatra-regular flex items-center gap-1"
+            className="alkatra-regular flex items-center gap-1 hover:text-blue-500"
             target="_blank"
           >
             Resume <MdOutlineArrowOutward />

@@ -14,12 +14,12 @@ function About() {
           Outside of work, I enjoy playing cricket, badminton and
           reading books occasionally, Btw my current read is {" "}  
           <a
-            href="https://en.wikipedia.org/wiki/Rich_Dad_Poor_Dad"
+            href="https://en.wikipedia.org/wiki/The_Psychology_of_Money"
             className="hover:text-blue-500"
           >
-            &apos;Rich Dad Poor Dad&apos;
+            &apos;The Psychology of Money&apos;
           </a>
-          {" "} by Robert Kiyosaki.
+          {" "} by Morgan Housel.
         </p>
       </div>
     </div>

@@ -42,11 +42,25 @@ function Projects() {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 p-2">
         <Card
+          title={"LearnWiser"}
+          description={
+            " A Full-stack, goal-driven learning platform that helps users organize learning through goals, resources, and learning sessions."
+          }
+          skills={["NodeJS", "Express.JS", "React", "MongoDB","ReduxToolkit"]}
+          links={[
+            {
+              name: "codebase",
+              url: "https://github.com/Upendhar10/LearnWiser-webapp",
+            },
+            { name: "preview", url: "https://github.com/Upendhar10/LearnWiser-webapp" },
+          ]}
+        />
+        <Card
           title={"Wistora"}
           description={
-            " A YouTube-inspired video streaming platform that has a user-friendly responsive design UI optimized for various screen sizes and allows users to explore trending content, search for videos, and watch live streams."
+            " A YouTube-inspired video streaming platform that has a user-friendly responsive UI optimized for various screen sizes and allows users to explore trending content, search for videos, and watch live streams."
           }
-          skills={["React", "Tailwindcss", "Redux", "Youtube API"]}
+          skills={["React", "Tailwindcss", "ReduxToolkit", "Youtube API", "Node.JS" ]}
           links={[
             {
               name: "codebase",
@@ -81,20 +95,6 @@ function Projects() {
               url: "https://github.com/Upendhar10/Canvaskraft-webApp",
             },
             { name: "preview", url: "https://canvaskraft-web-app.vercel.app/" },
-          ]}
-        />
-        <Card
-          title={"AudioWaveAnalyser"}
-          description={
-            "An web app that dynamically generates a continuous bar graph in sync with audio input until the audio terminates."
-          }
-          skills={["HTML", "CSS", "Javascript"]}
-          links={[
-            {
-              name: "codebase",
-              url: "https://github.com/Upendhar10/AudioWave-Analyser",
-            },
-            { name: "preview", url: "https://audio-wave-analyser.vercel.app/" },
           ]}
         />
       </div>

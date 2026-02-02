@@ -22,7 +22,7 @@ function Hero() {
             Frontend Engineer
           </h2>
           <a
-            href="https://drive.google.com/file/d/1-hMMvz_rjQV1u-NJEjz1rHH4J_vFh8eV/view?usp=sharing"
+            href="https://drive.google.com/file/d/1tG4fHfs4KY5lkb61nvjQdWuj5V9iILdu/view?usp=sharing"
             className="alkatra-regular flex items-center gap-1 hover:text-blue-500"
             target="_blank"
           >

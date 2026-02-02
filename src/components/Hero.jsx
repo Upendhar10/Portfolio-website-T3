@@ -19,7 +19,7 @@ function Hero() {
             <span className="hidden sm:inline">Nemmani</span>
           </h1>
           <h2 className="text-md md:text-xl alkatra-regular my-2">
-            Frontend Engineer
+            Fullstack Developer
           </h2>
           <a
             href="https://drive.google.com/file/d/1tG4fHfs4KY5lkb61nvjQdWuj5V9iILdu/view?usp=sharing"

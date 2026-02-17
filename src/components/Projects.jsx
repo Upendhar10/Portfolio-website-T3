@@ -4,7 +4,7 @@ const Card = ({ title, description, skills, links }) => {
     <div className="border-2 p-4 rounded-md grid gap-3 hover:shadow-[3px_2px_0px_0px_rgba(0,0,255)]">
       <h2 className="text-2xl alkatra-medium">{title}</h2>
       <p className="alkatra-regular text-justify">{description}</p>
-      <div className="alkatra-regular text-sm rounded-sm flex gap-2 items-center">
+      <div className="alkatra-regular text-sm rounded-sm flex gap-2 items-center flex-wrap">
         {skills.map((skill, index) => {
           return (
             <p

@@ -54,13 +54,13 @@ function Hero() {
           >
             GitHub <MdOutlineArrowOutward />
           </a>
-          <a
+          {/* <a
             href="https://hashnode.com/@UpendharDev10"
             className="alkatra-regular flex items-center gap-1 hover:text-blue-500"
             target="_blank"
           >
-            Hashnode <MdOutlineArrowOutward />
-          </a>
+            Video Intro <MdOutlineArrowOutward />
+          </a> */}
         </div>
       </div>
     </div>

@@ -10,7 +10,7 @@ function Techstack() {
   return (
     <div className="my-3 md:max-w-[100%] md:m-auto">
       <h1 className="text-3xl alkatra-bold my-5 text-blue-500 text-center">
-        Skillset.
+        Techstack.
       </h1>
       <div className=" flex items-center justify-around md:justify-center gap-3 md:gap-4 flex-wrap my-5">
         <Skill skill="HTML5 & CSS3" />

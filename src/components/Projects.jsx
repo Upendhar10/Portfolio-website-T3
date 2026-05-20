@@ -1,8 +1,11 @@
 import { MdOutlineArrowOutward } from "react-icons/md";
-const Card = ({ title, description, skills, links }) => {
+const Card = ({ title, description, skills, links, status }) => {
   return (
     <div className="border-2 p-4 rounded-md grid gap-3 hover:shadow-[3px_2px_0px_0px_rgba(0,0,255)]">
-      <h2 className="text-2xl alkatra-medium">{title}</h2>
+      <div className="flex justify-between items-center">
+          <h2 className="text-2xl alkatra-medium">{title}</h2>
+          <span className="text-sm bg-blue-500 rounded px-2  alkatra-regular">{status}</span>
+      </div>
       <p className="alkatra-regular text-justify">{description}</p>
       <div className="alkatra-regular text-sm rounded-sm flex gap-2 items-center flex-wrap">
         {skills.map((skill, index) => {
@@ -16,7 +19,7 @@ const Card = ({ title, description, skills, links }) => {
           );
         })}
       </div>
-      <div className="alkatra-regular flex items-center gap-3">
+      <div className="alkatra-regular flex items-center gap-5">
         {links.map((link, index) => {
           return (
             <a
@@ -42,17 +45,19 @@ function Projects() {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 p-2">
         <Card
+          status={'🔥 IN PROGRESS'}
           title={"LearnWiser"}
           description={
             " A Full-stack, goal-driven learning platform that helps users organize learning through goals, resources, and learning sessions."
           }
           skills={["NodeJS", "Express.JS", "React", "MongoDB","ReduxToolkit"]}
           links={[
-            {
-              name: "codebase",
-              url: "https://github.com/Upendhar10/LearnWiser-webapp",
-            },
-            { name: "preview", url: "https://github.com/Upendhar10/LearnWiser-webapp" },
+            // {
+            //   name: "codebase",
+            //   url: "https://github.com/Upendhar10/LearnWiser-webapp",
+            // },
+            // { name: "preview", url: "https://github.com/Upendhar10/LearnWiser-webapp" },
+            // {name : 'case study', url : "https://github.com/Upendhar10/LearnWiser-webapp"}
           ]}
         />
         <Card
@@ -67,20 +72,7 @@ function Projects() {
               url: "https://github.com/Upendhar10/Wistora-webapp",
             },
             { name: "preview", url: "https://wistora-webapp.vercel.app/" },
-          ]}
-        />
-        <Card
-          title={"FoodVille"}
-          description={
-            "A Food ordering platform that has features such as secure user authentication, responsive design optimized for various screen sizes, dynamic cart management via Context API."
-          }
-          skills={["React", "CSS", "ContextAPI", "Firebase"]}
-          links={[
-            {
-              name: "codebase",
-              url: "https://github.com/Upendhar10/FoodVille-WebApp",
-            },
-            { name: "preview", url: "https://foodville-web-app.netlify.app/" },
+            // {name : 'case study', url : "https://github.com/Upendhar10/LearnWiser-webapp"}
           ]}
         />
         <Card
@@ -95,6 +87,22 @@ function Projects() {
               url: "https://github.com/Upendhar10/Canvaskraft-webApp",
             },
             { name: "preview", url: "https://canvaskraft-web-app.vercel.app/" },
+            // {name : 'case study', url : "https://github.com/Upendhar10/LearnWiser-webapp"}
+          ]}
+        />
+        <Card
+          title={"FoodVille"}
+          description={
+            "A Food ordering platform that has features such as secure user authentication, responsive design optimized for various screen sizes, dynamic cart management via Context API."
+          }
+          skills={["React", "CSS", "ContextAPI", "Firebase"]}
+          links={[
+            {
+              name: "codebase",
+              url: "https://github.com/Upendhar10/FoodVille-WebApp",
+            },
+            { name: "preview", url: "https://foodville-web-app.netlify.app/" },
+            // {name : 'case study', url : "https://github.com/Upendhar10/LearnWiser-webapp"}
           ]}
         />
       </div>

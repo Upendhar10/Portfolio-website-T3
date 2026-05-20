@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Techstack from "./components/Techstack";
 import Projects from "./components/Projects";
+import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Techstack />
       <Projects />
+      <Experience/>
       <Contact />
       <Footer />
     </div>
